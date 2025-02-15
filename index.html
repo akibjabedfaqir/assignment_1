@@ -8,12 +8,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
     <link href="css/style.css" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="">
     <header class="shadow py-3">
-        <nav class="navbar navbar-expand-lg navbar-dark px-5 " aria-label="Main navigation">
+        <nav class="navbar navbar-expand-lg navbar-dark px-5">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">SaulDesign</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -29,32 +31,50 @@
             </div>
         </nav>
     </header>
-    <section class="py-5 sectionone">
-        <div class="container">
+    <section class="py-5 section_one" id="home">
+        <div class="container p-3">
             <div class="row">
                 <div class="col-lg-6">
-                    <div>
-                        <h1>CREATIVE UI <span class="">DESIGNER</span></h1>
-                        <a class="btn btn-primary">Hire me</a>
-                        <a class="btn btn-online-dark btn-sm" download="#">Download CV</a>
+                    <div class="details-one">
+                        <h1 class="fw-bolder">CREATIVE UI <br><span class="h1_prt2">DESIGNER</span></h1>
+                        <a class="btn btn-primary ">Hire me</a>
+                        <a class="btn btn-online-dark btn-sm" download="#">Download CV
+                            <img src="img/download.png" alt="downloade">
+                        </a>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="d-flex justify-content-center col-lg-4">
                     <img class="photo1" src="img/Group 2346.png" alt="banner-icon">
                 </div>
+            </div>
+            <div class="downloade">
+                <img src="img/Group 2347.png" alt="">
             </div>
         </div>
     </section>
     <!--  About Section -->
-    <section id="about" class="text-light text-center py-5">
-        <h2>About <span class="text-primary">me</span></h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, recusandae temporibus! Error repellendus eaque
-            amet
-            esse, ipsum autem eveniet illum alias aut omnis eligendi, exercitationem, accusamus dolores repudiandae
-            excepturi
-            perferendis vero modi eum nisi nostrum? Suscipit eum quas accusantium quis voluptatum sapiente
-            necessitatibus
-            doloribus maxime! Modi soluta tempora ut recusandae.</p>
+    <section class=" py-5 section_two justify-content-center about" id="about">
+        <div class="containe py-3">
+            <div class="row">
+                <div class="col-md-6 p-5">
+                    <h2>About <span class="text-primary">me</span></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, recusandae temporibus! Error
+                        repellendus
+                        eaque
+                        amet
+                        esse, ipsum autem eveniet illum alias aut omnis eligendi, exercitationem, accusamus dolores
+                        repudiandae
+                        excepturi
+                        perferendis vero modi eum nisi nostrum? Suscipit eum quas accusantium quis voluptatum
+                        sapiente
+                        necessitatibus
+                        doloribus maxime! Modi soluta tempora ut recusandae.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/Group 62.png" class="img-fluid" alt="About Me">
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="portfolio" class="text-light py-5 text-center">
@@ -83,36 +103,34 @@
             <button class="btn btn-primary">Send Message</button>
         </form>
     </section>
-    <section class="bg-dark py-5">
-        <div class="container px-5">
-            <div class="row gx-5 justify-content-center">
-                <div class="col-xxl-8">
-                    <div class="text-center my-5">
-                        <h2 class="display-5 fw-bolder">
-                            <span class="text-gradient d-inline">About Me</span>
-                        </h2>
-                        <p class="lead fw-light mb-4">
-                            My name is Start Bootstrap and I help brands grow.
-                        </p>
-                        <p class="text-muted text-white-50">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Fugit dolorum itaque qui unde quisquam consequatur autem.
-                            Eveniet quasi nobis aliquid cumque officiis sed rem iure ipsa!
-                            Praesentium ratione atque dolorem?
-                        </p>
-                        <div class="d-flex justify-content-center fs-2 gap-4">
-                            <a class="text-gradient" href="#!"><i class="bi bi-twitter"></i></a>
-                            <a class="text-gradient" href="#!"><i class="bi bi-linkedin"></i></a>
-                            <a class="text-gradient" href="#!"><i class="bi bi-github"></i></a>
-                        </div>
+
+    <footer class=" py-5">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg">
+                    <div class="d-flex justify-content-center p-5 gap-5">
+                        <a href="#" class="f-items"><i class="fa-solid fa-house"></i> Home</a>
+                        <a href="#" class="f-items"> <i class="fa-regular fa-user"></i> About Me</a>
+                        <a href="#" class="f-items"> <i class="fa-solid fa-phone"></i> Contact</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <div class="d-flex justify-content-center gap-3">
+                        <a href="#" class="f-items fs-4"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="f-items fs-4"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="f-items fs-4"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" class="f-items fs-4"><i class="fa-brands fa-youtube"></i></a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-
-    <footer class="text-center text-light py-4 bg-dark">
-        <p>&copy; 2025 SaulDesign | Terms of Service | Privacy Policy</p>
+        <hr class="mt-4">
+        <p class="text-end p-5">&copy; Terms of Service - Privacy Policy
+        </p>
+        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
