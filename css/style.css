@@ -1,13 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-html,
 body {
-  width: 100%; /* 1440px; */
-  height: 100%; /* 1024px; */
+  width: 1440px;
+  height: 1024px;
+  align-items: center;
   font-family: 'Poppins', serif;
   background: #222831;
   color: #eeeeee;
 }
-.bg-gradient-primary-to-secondary {
+
+nav {
+  width: 1440;
+  display: flex;
+  align-items: center;
   background-color: #222831;
 }
+nav .navbar {
+  display: flex;
+  gap: 48px;
+  border-bottom: #eeeeee 1px solid;
+}
+.nav-link {
+  color: rgb(red, green, blue);
+  text-decoration: none;
+  transition: 0.5s;
+}
+.nav-link:hover {
+  color: #00adb5;
+}
+.sectionone {
+  padding: 60px 0;
+}
+/*
+header {
+  left: 180px;
+  padding: 10px;
+  gap: 48px;
+}
+header h1 {
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 96px;
+  letter-spacing: 0%;
+  color: #eeeeee;
+}
+header h1 span {
+  color: #00adb5;
+}
+header a {
+  display: inline-flex;
+  color: #eeeeee;
+}
+header a .btn-primary {
+  background-color: #00adb5;
+}
+.photo1 {
+  width: 400px;
+  height: 472.65px;
+  top: 249px;
+  left: 888px;
+}
+ */
